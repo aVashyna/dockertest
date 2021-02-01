@@ -32,7 +32,7 @@ RUN apt-get update && apt-get install -y default-jdk maven
 
 # ADD a directory called docker-git-hello-world inside the UBUNTU IMAGE where you will be moving all of these files under this 
 # DIRECTORY to
-ADD . /usr/local/docker-git-hello-world
+ADD . /usr/local
 
 RUN echo $(ls -a /usr/local/docker-git-hello-world)
 
